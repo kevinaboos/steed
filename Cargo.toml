@@ -6,7 +6,11 @@ name = "std"
 version = "0.1.0"
 
 [dependencies]
-sc = "0.2.1"
+
+[dependencies.sc]
+# using our own sc crate that supports theseus syscalls 
+git = "https://github.com/kevinaboos/syscall.rs.git"
+branch = "theseus"
 
 [dependencies.ralloc]
 default-features = false

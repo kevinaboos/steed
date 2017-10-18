@@ -8,5 +8,5 @@ git = "https://github.com/rust-lang-nursery/compiler-builtins"
 stage = 1
 
 [dependencies.std]
-git = "https://github.com/japaric/steed"
+git = "https://github.com/kevinaboos/steed"
 stage = 2
